@@ -1,0 +1,123 @@
+body{
+background-color: black;
+margin: 0px;
+}
+h4{
+color: DarkOrange;
+}
+header
+{
+height: 200px;
+}
+nav{
+height: 100%;
+width: 200px;
+float: left;
+background-color: black;
+}
+article{
+background-image: url(images/bg.jpg);
+height:100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+
+}
+div{
+padding-top: 250px;
+text-align: center;
+}
+
+footer{
+padding-left: 10px;
+position:absolute;
+height: 50px;
+bottom:7px;
+width: 195px;
+}
+ul{
+list-style-type: none;
+display: flex;
+flex-direction: column;
+}
+li{
+padding-top: 55px;
+font-size: 20px
+}
+
+a:link {
+color: Teal;
+text-decoration: none;
+}
+a:visited {
+color: DarkGray;
+}
+a:hover {
+color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+body {
+padding:0px;
+margin: 0px;
+
+}
+article{
+padding:0px;
+margin: 0px;
+padding-top: 12%;
+}
+
+nav{
+height: 15%;
+width: 100%;
+background-color: black;
+top: 0;
+}
+ul{
+padding-left: 90px;
+display: table;
+width: 85%;
+position: relative;
+bottom: 190px;
+}
+li
+{
+top: 10px;
+display: table-cell;
+height: 50px;
+font-size: 17px;
+}
+header img
+{
+width: 75px;
+
+}
+
+footer{
+padding-left: 67%;
+top:0px;
+}
+.flex{
+max-width: 500px;
+}
+
+p{
+max-width: 100%;
+}
+div.flex p{
+max-width: 100%;
+}
+div.flex h2{
+padding-left: 40%
+}
+div.cer{
+flex-direction: column;
+}
+div.personalinfo{
+padding-left: 10%;
+text-align: left;
+}
+}
